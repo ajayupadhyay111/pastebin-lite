@@ -26,7 +26,7 @@ export default function App() {
     if (maxViews) payload.max_views = Number(maxViews);
   try {
   const res = await axios.post(
-    `${API_BASE}/api/pastes`,
+    `/api/pastes`,
     payload,
     {
       headers: { "Content-Type": "application/json" },

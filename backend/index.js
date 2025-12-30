@@ -65,7 +65,7 @@ app.post("/api/pastes", async (req, res) => {
 
   res.status(201).json({
     id,
-    url: `${process.env.BASE_URL}/p/${id}`,
+    url: `${process.env.VITE_API_BASE_URL}/p/${id}`,
   });
 });
 
