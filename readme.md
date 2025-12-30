@@ -8,6 +8,7 @@ A simple Pastebin-like service that allows users to create and share text pastes
 - Express
 - Neon (Postgres)
 - Raw SQL
+- React
 
 ## How to run locally
 1. npm install
